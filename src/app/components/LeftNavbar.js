@@ -7,6 +7,8 @@ export default function LeftNavbar({user}){
   return(
     <div className={styles.leftContainer}>
         <a className={styles.istaNewsContainer} href='/'> <div className={styles.instagramLogo}> Instagram News</div></a> 
+        <a className={styles.istaNewsContainerSmall} href='/'> <div className={styles.instagramLogo}> News</div></a> 
+
         <a href='/'>
           <div className={styles.profileNameContainer}>
             <div className={styles.newsIcon}>

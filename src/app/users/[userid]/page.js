@@ -46,6 +46,8 @@ const UserProfile = ({params}) => {
         <div className={styles.profileNavbar} >
           <a href='/'>
             <div className={styles.backToNews} >Back to Instagram News</div>
+            <div className={styles.backToNewsSmall} >Back</div>
+
           </a>
           <div className={styles.gridOrListViewContainer }>
             {isGridView ? "Grid View": "List View"}

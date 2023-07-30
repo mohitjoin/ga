@@ -54,13 +54,12 @@
 .page_followingOrFollowContainer__5_H3X{
   display: flex;
   flex-wrap: wrap;
-
 }
 .page_followingOrFollowText__8R5fU{
   width: 45%;
   margin: auto;
   padding: 12px;
-  min-width: 100px;
+  /* min-width: 100px; */
   background-color: rgb(182, 221, 186); 
   border-radius: 6px;
   font-size: 0.8rem;
@@ -167,12 +166,67 @@
   padding: 6px 8px;
   font-size: 1rem;
 }
+.page_istaNewsContainerSmall___q4o5{
+  display: none;
+}
+
+
+@media  screen and (max-width: 400px) {
+      .page_trendingContainer__VK__7{
+        display: none;
+      }
+      .page_newsContainer__kM5Hq{
+        width: 100%; 
+        min-height: 100vh;
+        padding: 24px;
+      }
+      .page_newsText__G9jGV{
+        display: none;
+      }
+      .page_profileText__5XOHc{
+        display: none;
+      }
+      .page_istaNewsContainer__hU9m7{
+        display: none;
+      }
+      .page_leftContainer__tkDq2{
+        width: 25%;
+        border-right: 2px solid rgb(183, 182, 182);
+        padding: 12px;
+      }
+      
+      .page_followingOrFollowText__8R5fU{
+        width: 100% !important;
+        margin: auto;
+        padding: 4px; 
+        background-color: rgb(182, 221, 186); 
+        border-radius: 6px;
+        font-size: 0.5rem;
+        margin-bottom: 12px;
+        margin-top: 6px;
+      }
+      .page_newsMainContainer__ZyICL{
+        width: 100%;
+        height: 300px;
+        border-radius: 12px;
+        background-color: rgb(243, 243, 243);
+        padding-top: 12px;
+        margin-bottom: 12px;
+      }
+      .page_newsImage__Z6p36{
+        height: 250px;
+        width: 94%;
+        margin: auto;
+        border-radius: 12px;
+        background-color: rgb(210, 209, 209);
+      }
+}
 /*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/profileComponents/profileStyles.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************/
 .profileStyles_profileDiv__Z0OuU {
   width: 30%;
-
+  padding: 12px;
   min-height: 100vh;
   height: 100%;
 }
@@ -211,7 +265,7 @@
 }
 
 .profileStyles_mainImageContainer__w_0Au {
-  width: 100%;
+  width: 70%;
   padding: 12px;
   border-left: 2px solid rgb(183, 182, 182);
   height: 100vh;
@@ -222,7 +276,7 @@
 .profileStyles_imagesGridContainer__LA61n {
   width: 100%;
   display: flex;
-  flex-direction: row !important;
+  flex-wrap: wrap !important;
 }
 
 .profileStyles_imagesListContainer__LWav_ {
@@ -250,4 +304,45 @@
 .profileStyles_loaderComponent__jiOT_{
   padding-top: 25% ;
   padding-left: 50%;
+}
+
+
+@media  screen and (max-width: 400px) {
+   .profileStyles_mainImageContainer__w_0Au {
+    width: 100%;
+    padding: 4px;
+    border-left: 2px solid rgb(183, 182, 182);
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .profileStyles_gridImage__KiqWH {
+    width: 100%;
+    height:100%;
+    margin: 4px;
+  }
+  .profileStyles_gridImageImage__Cl24L {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+  }
+  .profileStyles_imagesListContainer__LWav_{
+    width: 100%;
+  }
+  .profileStyles_backToNews__S_Yb_{
+    display: none;
+  }
+  .profileStyles_profileDiv__Z0OuU {
+    width: 30%;
+    padding: 4px;
+    min-height: 100vh;
+    height: 100%;
+  } 
+ 
+  /* .imagesGridContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  
 }

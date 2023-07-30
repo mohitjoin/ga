@@ -94,4 +94,18 @@ input:checked + .slider:before {
 }
 
 
+.backToNewsSmall{
+  display: none;
+}
 
+@media  screen and (max-width: 400px) {
+  
+  .backToNews{
+    display: none;
+  }
+  .backToNewsSmall{
+    display: block;
+    padding: 12px 26px;
+  }
+  
+}
