@@ -1,0 +1,81 @@
+.profileDiv {
+  width: 30%;
+
+  min-height: 100vh;
+  height: 100%;
+}
+
+.followingOrFollowContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.followingOrFollowText {
+  width: 45%;
+  margin: auto;
+  padding: 12px;
+  min-width: 100px;
+  background-color: rgb(182, 221, 186);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+  margin-top: 6px;
+}
+
+.profilepicContainer {
+  width: 100%;
+  padding: 12px;
+}
+
+.profilepicMain {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.profileNameConatiner {
+  text-align: center;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+
+.mainImageContainer {
+  width: 100%;
+  padding: 12px;
+  border-left: 2px solid rgb(183, 182, 182);
+  height: 100vh;
+  overflow-y: scroll;
+
+}
+
+.imagesGridContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+}
+
+.imagesListContainer {
+  width: 60%; 
+  
+}
+
+.gridImage {
+  width: 270px;
+  height: 270px;
+  margin: 12px;
+}
+
+.gridImageImage {
+  width: 270px;
+  height: 270px;
+  justify-content: space-around;
+}
+
+.loaderContainer{
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+.loaderComponent{
+  padding-top: 25% ;
+  padding-left: 50%;
+}

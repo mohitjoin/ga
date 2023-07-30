@@ -1,0 +1,166 @@
+.main {
+  display: flex;
+  flex-direction: row; 
+  height: 100vh;
+}
+/* right container */
+.leftContainer{
+  width: 25%;
+  border-right: 2px solid rgb(183, 182, 182);
+  padding: 24px;
+}
+.instagramLogo{
+  width: 100%;
+  font-size: 1.4rem;
+  height: 50px;
+}
+.profileNameContainer{
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+.profileText{
+  margin-left: 14px;
+  padding-top: 6px;
+}
+.profileImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: black;
+  /* border:1px solid rgb(131, 128, 128); */
+}
+.profileImageMain{
+  border-radius: 100%;
+  border:1px solid rgb(131, 128, 128);
+}
+.newsIcon{
+  height: 40px;
+  width: 40px; 
+  font-size: 1.8rem;
+  padding: 6px 4px;
+}
+.newsText{
+  margin-left: 14px;
+  padding-top: 10px;
+}
+.istaNewsContainer{
+  margin-bottom: 12px;
+}
+
+.followingOrFollowContainer{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.followingOrFollowText{
+  width: 45%;
+  margin: auto;
+  padding: 12px;
+  min-width: 100px;
+  background-color: rgb(182, 221, 186); 
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+  margin-top: 6px;
+}
+
+
+/* right continer */
+.postContainer{
+  width: 75%;  
+}
+.newsAndAddsContainer{
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+}
+.newsContainer{
+  width: 70%; 
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.trendingContainer{
+  padding: 12px;
+}
+.newsMainContainer{
+  width: 100%;
+  /* height: 500px; */
+  border-radius: 12px;
+  background-color: rgb(243, 243, 243);
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+.newsImage{
+  height: 400px;
+  width: 94%;
+  margin: auto;
+  border-radius: 12px;
+  background-color: rgb(210, 209, 209);
+}
+.trendingNewsText{
+  width: 94%;
+  padding: 8px;
+}
+.trendingNewsMainContainer{ 
+  border-radius: 12px;
+  margin-bottom: 12px;
+  padding: 0px 0px;
+  background-color: rgb(243, 243, 243);
+}
+.trendingNewsHeading{
+  margin-bottom: 12px;
+}
+.newsImageMain{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.likeAndCommentContainer{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 18px;
+  border-top: 2px solid rgb(183, 182, 182);
+  margin-top: 4px;
+}
+.likeContainer{
+  margin-right: 16px;
+  font-size: 1.2rem;
+  padding-top: 4px;
+  display: flex;
+  flex-direction: row;
+
+}
+.likeContainer:hover{
+  cursor: pointer;
+}
+.commentContainer{
+  margin-right: 16px;
+  font-size: 1.2rem;
+  padding-top: 4px;
+  display: flex;
+  flex-direction: row;
+}
+.commentContainer:hover{
+  cursor: pointer;
+}
+.likeIcon{  
+  margin: auto;
+
+}
+.commentIcon{ 
+  margin: auto;
+}
+.likeText{
+  padding: 6px 8px;
+  font-size: 1rem;
+}
+.commentText{
+  padding: 6px 8px;
+  font-size: 1rem;
+}
