@@ -6,10 +6,10 @@ export default function Loader(){
     <div  className={styles.loaderContainer}>
       <div className={styles.loaderComponent}>
           <Audio
-            height="80"
-            width="80"
+            height="50"
+            width="50"
             radius="9"
-            color="green"
+            color="black"
             ariaLabel="loading"
             wrapperStyle
             wrapperClass

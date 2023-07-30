@@ -11,7 +11,7 @@ export default function ImagesContainer({photos,isGridView}){
           <div lassName={styles.imagesGridContainer} >
             
             {
-                photos.map((photo,index)=>{
+                photos?.map((photo,index)=>{
                   return <span key={index} className={styles.gridImage}>
                     <img className={styles.gridImageImage} src={photo.urls.small} alt='user_photos'  />
                   </span>
@@ -22,7 +22,7 @@ export default function ImagesContainer({photos,isGridView}){
           :
           <div className={styles.imagesListContainer} >
             {
-                photos.map((photo,index)=>{
+                photos?.map((photo,index)=>{
                   return  <div > <News key={index} news={photo} shouldShowLikeComment={false}/> </div>
 
                 })
